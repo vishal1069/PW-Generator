@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(70, 181, 250);
+}
+.container{
+    border: 1px solid #000;
+    width: 50%;
+    height: 50%;
+    margin: 0 auto;
+    display: inline-block;
+    position: absolute;
+    
+    top: 150px;
+    left: 400px;
+    justify-content: center;
+    background-color: rgb(70, 181, 250);
+}
+.output {
+    background-color:lightcyan;
+    text-align: center;
+    font-family: poppins, sans-serif;
+    font-size: 1.5em;
+    height: 60px;
+    border: 3px solid black;
+    font-weight: 300;
+    padding: 25px 15px 0 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+#mybtn{
+    width: 100%;
+    text-align: center;
+}
+#inp{
+    float: right;
+    width: 35px;
+    height: 25px;
+}
+#inp1{
+    float: right;
+}
